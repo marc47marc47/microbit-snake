@@ -1,0 +1,15 @@
+[package]
+name = "microbit-snake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+microbit-v2 = "0.15.1"
+cortex-m-rt = "0.7.3"
+panic-halt = "0.2.0"
+heapless = "0.8"
+embedded-hal = "1.0"
+
+[build-dependencies]
+probe-rs = "0.11.0"
+
